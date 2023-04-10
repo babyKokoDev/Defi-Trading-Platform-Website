@@ -14,7 +14,7 @@ const About = () => {
            </p>
            <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4'>
 
-                <AboutCard icons={<SiHiveBlockchain size={40} />} heading = 'Reliable, tamper-proof network' text= "Use decentralization, trusted nodes, premium data, and cryptographic proofs to connect highly accurate and available data/APIs to any smart contract." />
+                <AboutCard icons={<SiHiveBlockchain size={40} />} heading = 'Reliable, tamper-proof network' text= "Use decentralization, trusted nodes, premium data, and cryptographic proofs to connect highly accurate and ready data/APIs to any smart contract." />
                 <AboutCard icons={<SiFsecure size={40} />} heading = 'Seamless connection to any API' text= "Build on a flexible framework that can retrieve data from any API, connect with existing systems, and integrate with any current or future blockchain." />
                 <AboutCard icons={<SiStrapi size={40} />} heading = 'Proven, ready-made solutions' text= "Integrate pre-built, time-tested oracle solutions that already secure tens of billions in smart contract value for market-leading decentralized applications." />
                 <AboutCard icons={<VscServerProcess size={40} />} heading = 'Secure off-chain computation' text= "Use a decentralized network of DeFi Keeper nodes to automate contracts, mitigating risk of manual interventions and centralized servers." />
