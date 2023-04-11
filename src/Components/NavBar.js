@@ -26,7 +26,7 @@ const NavBar = () => {
           {nav ? <AiOutlineClose size={30} className="text-white"/> : <AiOutlineMenu size={30} className="text-white"/>}
         </div>
         {/* Mobile Menu */}
-        <div className={nav ? 'w-full h-full bg-black text-white absolute left-0 top-[90px] flex justify-center text-center z-10' : 'absolute left-[-100%]'}>
+        <div className={nav ? 'w-full h-full bg-black text-white absolute left-0 top-[90px] flex justify-center text-center z-10 duration-500' : 'absolute left-[-100%]'}>
             <ul className='mt-[100px]'>
               <li className='text-2xl'>Platform</li>
               <li className='text-2xl'>Developers</li>
